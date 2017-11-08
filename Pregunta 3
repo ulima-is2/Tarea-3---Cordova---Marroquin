@@ -1,0 +1,20 @@
+- Cliente: Son los usuarios que tendrán acceso al sistema.
+- Servidor Web: Es el servidor que contiene la plataforma web. Se utilizarán CSS, HTML5 y JS.
+- Servidor Móvil: Es el servidor que contiene el aplicativo móvil. Se desarrollaran en Android y iOS.
+- API Getaway Proxy: Es la puerta de entrada a las API proporcionando un punto de entrada a cada microservicio. 
+  Recibie un token del cliente OAuth y se comunica con el OAuth server. Por tanto, no permite que ninguna petición externa 
+  no autorizada pase a través de ella. También, utiliza puertos dinámicamente distribuidos para así evitar conflictos y 
+  minimizar la administración. Se utilizará la tecnología implementada por Amazon, dado que permite una mayor escalabilidad.
+- API Administrador Command: Es el microservicio que permite realizar operaciones de escritura para el recurso Administrador. Se 
+  utiliza tecnología Falcon-Rest-Framework, Falcon en Python.
+- API Cliente Command: Es el microservicio que permite realizar operaciones de escritura para el recurso Cliente. Se utiliza 
+  tecnología Falcon-Rest-Framework, Falcon en Python.
+- API Venta Command: Es el microservicio que permite realizar operaciones de escritura para el recurso Venta. Se utiliza 
+  tecnología Falcon-Rest-Framework, Falcon en Python.
+- API Administrador Query:Es el microservicio que permite realizar consultas para el recurso Administrador. Se utiliza 
+  tecnología Falcon-Rest-Framework, Falcon en Python.
+- API Cliente Query: Es el microservicio que permite realizar consultas para el recurso Cliente. Se utiliza 
+  tecnología Falcon-Rest-Framework, Falcon en Python.
+- API Venta Query: Es el microservicio que permite realizar consultas para el recurso Venta. Se utiliza 
+  tecnología Falcon-Rest-Framework, Falcon en Python.
+- DB MySQL: Es el servidor de base de datos. Se utiliza MySQL debido a que presenta grandes facilidades.
