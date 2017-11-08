@@ -18,3 +18,6 @@
 - API Venta Query: Es el microservicio que permite realizar consultas para el recurso Venta. Se utiliza 
   tecnología Falcon-Rest-Framework, Falcon en Python.
 - DB MySQL: Es el servidor de base de datos. Se utiliza MySQL debido a que presenta grandes facilidades.
+
+Se mantiene un acomplamiento a nivel de datos, se presenta una alta cohesión de los componentes y hay una orquestación 
+de servicios web
